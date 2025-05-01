@@ -65,7 +65,7 @@ Este é um projeto backend desenvolvido com Django e Django REST Framework. Ele 
     Method: GET
 
 
-- Criar clientes
+- Criar cliente
     ```bash
     URL: http://localhost:8000/api/customers/
     Method: POST
