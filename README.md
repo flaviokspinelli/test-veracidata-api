@@ -43,12 +43,15 @@ Este é um projeto backend desenvolvido com Django e Django REST Framework. Ele 
 ## Endpoints
 
 Login
-    URL: http://localhost:8000/api/auth/login/
-    Method: POST
-    Body: {
-        "username": "admin",
-        "password": "admin"
-    }
+    
+URL: http://localhost:8000/api/auth/login/
+    
+Method: POST
+
+Body: {
+    "username": "admin",
+    "password": "admin"
+}
 
 Listar clientes
     URL: http://localhost:8000/api/customers/
