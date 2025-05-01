@@ -42,38 +42,38 @@ Este é um projeto backend desenvolvido com Django e Django REST Framework. Ele 
 
 ## Endpoints
 
-- Login
-URL: http://localhost:8000/api/auth/login/
-Method: POST
-Body: {
-    "username": "admin",
-    "password": "admin"
-}
+Login
+    URL: http://localhost:8000/api/auth/login/
+    Method: POST
+    Body: {
+        "username": "admin",
+        "password": "admin"
+    }
 
-- Listar clientes
-URL: http://localhost:8000/api/customers/
-Method: GET
+Listar clientes
+    URL: http://localhost:8000/api/customers/
+    Method: GET
 
-- Criar clientes
-URL: http://localhost:8000/api/customers/
-Method: POST
-Body: {
-    "name": "Nome do Cliente",
-    "email": "cliente@email.com",
-    "phone": "(21) 99999-9999",
-    "birthday": "1989-01-01"
-}
+Criar clientes
+    URL: http://localhost:8000/api/customers/
+    Method: POST
+    Body: {
+        "name": "Nome do Cliente",
+        "email": "cliente@email.com",
+        "phone": "(21) 99999-9999",
+        "birthday": "1989-01-01"
+    }
 
-- Atualizar cliente
-URL: http://localhost:8000/api/customers/{id}/
-Method: PUT
-Body: {
-    "name": "Novo Nome do Cliente",
-    "email": "novocliente@email.com",
-    "phone": "(21) 99999-9991",
-    "birthday": "1989-01-02"
-}
+Atualizar cliente
+    URL: http://localhost:8000/api/customers/{id}/
+    Method: PUT
+    Body: {
+        "name": "Novo Nome do Cliente",
+        "email": "novocliente@email.com",
+        "phone": "(21) 99999-9991",
+        "birthday": "1989-01-02"
+    }
 
-- Deletar cliente
-URL: http://localhost:8000/api/customers/{id}/
-Method: DELETE
+Deletar cliente
+    URL: http://localhost:8000/api/customers/{id}/
+    Method: DELETE
