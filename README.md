@@ -42,21 +42,25 @@ Este é um projeto backend desenvolvido com Django e Django REST Framework. Ele 
 
 ## Endpoints
 
-Login
-  
-URL: http://localhost:8000/api/auth/login/ 
-Method: POST
-Body: {
-    "username": "admin",
-    "password": "admin"
-}
+- Login
+
+    ```bash
+    URL: http://localhost:8000/api/auth/login/
+    Method: POST
+    Body: {
+        "username": "admin",
+        "password": "admin"
+    }
 
 
-Listar clientes
+- Listar clientes
+    ```bash
     URL: http://localhost:8000/api/customers/
     Method: GET
 
-Criar clientes
+
+- Criar clientes
+    ```bash
     URL: http://localhost:8000/api/customers/
     Method: POST
     Body: {
@@ -66,7 +70,9 @@ Criar clientes
         "birthday": "1989-01-01"
     }
 
-Atualizar cliente
+
+- Atualizar cliente
+    ```bash
     URL: http://localhost:8000/api/customers/{id}/
     Method: PUT
     Body: {
@@ -76,6 +82,8 @@ Atualizar cliente
         "birthday": "1989-01-02"
     }
 
-Deletar cliente
+
+- Deletar cliente
+    ```bash
     URL: http://localhost:8000/api/customers/{id}/
     Method: DELETE
