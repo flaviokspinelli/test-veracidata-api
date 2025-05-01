@@ -34,7 +34,12 @@ Este é um projeto backend desenvolvido com Django e Django REST Framework. Ele 
    ```bash
    python manage.py migrate 
 
-4. **Rode o projeto:**
+4. **Crie um usuario administrador:**
+
+   ```bash
+   python manage.py createsuperuser 
+
+5. **Rode o projeto:**
 
    ```bash
    python manage.py runserver
